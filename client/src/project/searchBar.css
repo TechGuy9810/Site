@@ -1,0 +1,209 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.main-row-search{
+    display: grid;
+    background-color: white;
+    height: 50px;
+    grid-template-columns: 30% 30% 40%;
+    align-items: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.main-col1{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(220, 220, 220);
+}
+.rooms-logo{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+}
+.location-logo{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center; 
+}
+.location{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.main-col2{
+display: grid;
+grid-template-columns: 20% 80%;
+height: 100%;
+width: 100%;
+border: 1px solid rgb(220, 220, 220);
+}
+.rooms-select{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+.main-col3{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 70% 30%;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+ .date-select{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search-button{
+    background-color: rgb(242, 75, 103);
+    color: white;
+    width: 100%;
+}
+.card-Heading{
+    display: flex;
+    justify-content: center;
+}
+#child-row{
+margin-left: auto;
+margin-right: auto;
+}
+.comp-section-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    height: 5vw;
+}
+.social-media-main{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.social-media-div1{
+height: 80%;
+width: 100%;
+display: flex;
+align-items: center;
+}
+.social-media-div1 ul{
+    display: flex;
+    align-items: center;
+}
+.social-media-div1 ul li{
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    color: rgb(0, 0, 0);
+}
+.options{
+    position: absolute;
+    border-radius: 5px;
+    background: rgb(234, 234, 234);
+    z-index: 99;
+    padding: 1%;
+    margin-top: 10%;
+}
+.optionItem{
+    width: 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.optionCounterButton:disabled{
+    cursor: not-allowed;
+}
+@media (max-width:600px)
+{
+    .row2{
+        display: block;
+    }
+    .row3 p{
+        font-size: 1vw;
+    }
+    .comp-section-main{
+        display: none;
+    }
+.main-row-search{
+display: block;
+height: 12vw;
+width: 85%;
+}
+.main-col1{
+    width: 100%;
+    grid-template-columns: 30% 70%;
+}
+.location{
+    display: flex;
+    background-size: cover;
+}
+.main-col2{
+    width: 100%;
+}
+.col-sm{
+    margin-bottom: 20px;
+}
+    .main-row-search{
+box-shadow: none;
+    }
+    #child-row{
+        margin-top: 2vw;
+        }
+        .options{
+            margin-top: 33%;
+        }
+}
+@media(max-width: 1200px) {
+   .comp-section-main{
+    display: none;
+}
+.options{
+    margin-top: 18%;
+}
+}
+
+.row{
+    margin-bottom: 20px;
+  }
+@media (max-width: 480px) {
+    .ant-calendar-range {
+        width: 320px;
+    }
+    .ant-calendar-range-part {
+        width: 100%;
+    }
+}

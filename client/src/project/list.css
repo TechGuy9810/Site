@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    .body{
+        display: flex;
+    }
+    .landing{
+        background-color: white;
+        height: 100%;
+        width: 100%;
+    }
+    .card-Heading{
+        display: flex;
+        justify-content: center;
+    }
+    #child-row{
+    margin-left: auto;
+    margin-right: auto;
+    }
+    #container-list{
+    margin-top:3.7vw;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+        .card-list{
+            display: grid;
+            grid-template-rows: 55% 45%;
+            height: 42vw;
+            margin-bottom: 5%;
+            border: 1px solid rgb(214, 214, 214);
+            border-radius: 5px;
+        }
+        .hotel-type{
+            color: rgb(96, 165, 96);
+        }
+        .card-body{
+         width: 100%;
+        padding: 5%;
+        }
+        .card-image{
+            width: 100%;
+            overflow: hidden;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+    @media (max-width:600px)
+    {
+        .hotel-type{
+            font-size: 4vw;
+            color: rgb(96, 165, 96);
+        }
+        .hotel-desc{
+            display: none;
+        }
+        .card-title{
+            font-size: 5vw;
+        }
+        .hotel-city{
+                font-size: 4vw;
+        }
+        .hotel-address{
+            font-size: 4vw;
+        }
+
+        .card-list{
+            display: grid;
+            grid-template-columns: 100%;
+            grid-template-rows: 45% 55%;
+            height: 107vw;
+            margin-bottom: 10%;
+        }
+        .card-body{
+         height: 100%;
+        }
+        .card-image{
+            height: 100%;
+            overflow: hidden;
+            object-fit: cover;
+            border-bottom-left-radius: none;
+            border-top-right-radius: 5px;
+        }
+    .col-sm{
+        margin-bottom: 20px;
+    }
+    .card-Heading{
+         margin-bottom: 8vw;
+    }
+    #container-list{
+        margin-top: 10vw;
+        width: 85%;
+        }
+        #child-row{
+            margin-top: 2vw;
+            }
+    }  
+    .main-row-search-1{
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        height: 40px;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        width: 30%;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .main-col1-1, .main-col2-1{
+        height: 100%;
+        width: 100%;
+        border: 1px solid rgb(220, 220, 220);
+    }
+    .main-col1-1 input, .main-col2-1 input{
+        overflow: hidden;
+        height: 100%;
+        width: 100%;
+    }
+    @media (max-width:600px)
+{
+.main-row-search-1{
+margin-top: 30%;
+height: 8vw;
+width: 75%;
+}
+.main-col1-1, .main-col2-1{
+   display: flex;
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgb(220, 220, 220);
+}
+.col-sm{
+    margin-bottom: 20px;
+}
+    .main-row-search-1{
+box-shadow: none;
+    }
+}

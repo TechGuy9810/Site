@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+.reserve{
+     justify-content: center;
+     display: flex;
+     top: 0;
+     position: fixed;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.264);
+     height: 100vh;
+     width: 100vw;
+}
+.rContainer{
+background-color: white;
+width: 50vw;
+height: 50vh;
+border-radius: 15px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+.cont-reserve h1{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+font-size: 2vw;
+}
